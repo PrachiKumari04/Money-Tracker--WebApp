@@ -1,0 +1,32 @@
+{
+  "name": "money-tracker", 
+  "version": "1.0.0", 
+  "main": "index.js", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [], 
+  "author": "", 
+  "license": "ISC", 
+  "description": "", 
+  "dependencies": {
+    "body-parser": "^1.20.2", 
+    "express": "^4.19.2", 
+    "mongoose": "^8.5.2" 
+  },
+  "comments": {
+    "name": "Name of the project",
+    "version": "Version of the project",
+    "main": "Entry point of the project",
+    "scripts": "Placeholder test script",
+    "keywords": "Keywords related to the project (can be added later)",
+    "author": "Author of the project (add your name here)",
+    "license": "License for the project",
+    "description": "Description of the project (add a description here)",
+    "dependencies": {
+      "body-parser": "Middleware for parsing request bodies",
+      "express": "Web framework for Node.js",
+      "mongoose": "MongoDB object modeling tool"
+    }
+  }
+}

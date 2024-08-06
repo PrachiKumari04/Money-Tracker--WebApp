@@ -1,0 +1,43 @@
+
+<!-- 
+  Author: [Prachi Kumari]
+  Date: [06/08/2024]
+  GitHub Account: [https://github.com/PrachiKumari04]
+  Linkden Account: [https://www.linkedin.com/in/prachi-kumari-6b100125a/]
+  Description: This HTML file serves as the front-end for the Finance Flow application, 
+  a simple money tracker for managing expenses and income.
+-->
+
+1. Create Project Directory
+mkdir money-tracker
+cd money-tracker
+
+2. Initialize Node.js Project
+npm init -y
+
+
+3. Install Dependencies
+npm install express mongoose body-parser
+
+
+4. File Structure
+money-tracker/
+├── public/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── scripts.js
+│   └── index.html
+├── models/
+│   └── transaction.js
+├── routes/
+│   └── transactions.js
+├── server.js
+└── package.json
+
+5 Start the server
+node server.js
+
+
+
+

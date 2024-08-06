@@ -1,0 +1,119 @@
+/* Import Google Font 'Roboto' with different font weights */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Global styles for the body element */
+body {
+  font-family: 'Roboto', sans-serif; /* Use 'Roboto' font */
+  background-color: #f4f4f9; /* Light gray background color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+/* Styles for the container div */
+.container {
+  width: 600px; /* Set width of container */
+  background: #ffffff; /* White background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Inner padding */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Styles for the h1 element */
+h1 {
+  text-align: center; /* Center-align text */
+  color: #333333; /* Dark gray color */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+/* Styles for the form element */
+form {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
+}
+
+/* Styles for each form group */
+.form-group {
+  margin-bottom: 15px; /* Space below each group */
+}
+
+/* Styles for label elements */
+label {
+  font-weight: 500; /* Medium font weight */
+  margin-bottom: 5px; /* Space below label */
+}
+
+/* Common styles for input, select, and button elements */
+input, select, button {
+  padding: 10px; /* Inner padding */
+  font-size: 16px; /* Font size */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  width: 100%; /* Full width */
+}
+
+/* Styles for button elements */
+button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-weight: 500; /* Medium font weight */
+}
+
+/* Hover state for buttons */
+button:hover {
+  background-color: #0056b3; /* Darker blue background */
+}
+
+/* Styles for the table element */
+table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Remove space between cells */
+  margin-top: 20px; /* Space above table */
+}
+
+/* Common styles for th and td elements */
+th, td {
+  padding: 10px; /* Inner padding */
+  border: 1px solid #ddd; /* Light gray border */
+  text-align: left; /* Left-align text */
+}
+
+/* Styles for th (table header) elements */
+th {
+  background-color: #f2f2f2; /* Light gray background */
+  font-weight: 500; /* Medium font weight */
+}
+
+/* Styles for even table rows */
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Slightly darker background for alternating rows */
+}
+
+/* Styles for delete buttons */
+.delete-btn {
+  background-color: #e74c3c; /* Red background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 5px 10px; /* Inner padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Hover state for delete buttons */
+.delete-btn:hover {
+  background-color: #c0392b; /* Darker red background */
+}
+
+/* Styles for the total amount div */
+#total-amount {
+  margin-top: 20px; /* Space above total amount */
+  text-align: center; /* Center-align text */
+  font-size: 18px; /* Font size */
+  font-weight: 500; /* Medium font weight */
+  color: #333333; /* Dark gray color */
+}
