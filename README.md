@@ -133,3 +133,5 @@ money-tracker/
 - **[Prachi Kumari]** - https://github.com/PrachiKumari04
 ```
 
+![Capture](https://github.com/user-attachments/assets/d40bfc9a-cbe5-4cfa-aafd-a49b2ab69276)
+
