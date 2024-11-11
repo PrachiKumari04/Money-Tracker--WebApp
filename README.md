@@ -131,7 +131,8 @@ money-tracker/
 ## Author
 
 - **[Prachi Kumari]** - https://github.com/PrachiKumari04
-```
 
-![Capture](https://github.com/user-attachments/assets/d40bfc9a-cbe5-4cfa-aafd-a49b2ab69276)
+
+![Capture](https://github.com/user-attachments/assets/e59372ff-41a3-4bff-8e8b-2440f618f3d3)
+
 
